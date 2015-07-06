@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:inputType="textUri"
+        android:key="login_server_key"
+        android:hint="Ex: itsupport.company.com"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/login_server" />
+
+</PreferenceScreen>
+<!-- From: file:/C:/Users/Tyler/AndroidStudioProjects/SolarWindsHelpdesk/app/src/main/res/xml/pref_login.xml -->

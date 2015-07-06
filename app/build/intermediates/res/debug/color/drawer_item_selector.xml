@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:color="#505050"/> <!-- pressed -->
+    <item android:state_activated="true"
+		  android:color="#FCA500"
+        />
+    <item android:color="#D8D8D8"/> <!-- default -->
+</selector><!-- From: file:/C:/Users/Tyler/AndroidStudioProjects/SolarWindsHelpdesk/app/src/main/res/color/drawer_item_selector.xml -->
